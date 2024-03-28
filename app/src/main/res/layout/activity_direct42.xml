@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/marginMedium"
+    tools:context=".Direct4_2Activity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightGreen"
+        android:text="@string/btn1"
+        android:textColor="#455A64"
+        android:textSize="@dimen/textSizeLarge" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textSize="@dimen/textSizeLarge"
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:singleLine="true"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:background="@color/blueGreen"
+        android:hint="@string/btn3"
+        android:minHeight="48dp"
+        android:textColorHint="#00B0FF"
+        android:textSize="@dimen/textSizeMedium"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/btn2"
+        android:enabled="false"
+        android:textSize="@dimen/textSizeLarge" />
+
+</LinearLayout>
